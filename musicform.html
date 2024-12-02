@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Survey</title>
+</head>
+<style>
+
+body {
+	font-family: Arial, sans-serif;
+	}
+form {
+	background-color: #ffffff;
+	padding: 20px;
+	margin: 0 auto
+}
+</style>
+
+<body>
+
+    <h1>Music Survey</h1>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <p>What kind of music do you like to listen too?</p>
+        <textarea name="music" rows="3" cols="40"></textarea><br><br>
+
+        <p>Favorite Genre:</p>
+        <input type="radio" name="genre" value="Pop"> Pop<br>
+        <input type="radio" name="genre" value="Rock"> Rock<br>
+	<input type="radio" name="genre" value="r&b"> R&B <br>
+        <input type="radio" name="genre" value="Rap"> Rap<br><br>
+
+        <label>What music platform do you use?</label>
+        <select name="platform">
+            <option> Spotify </option>
+            <option> Apple Music </option>
+	    <option> SoundCloud </option>
+            <option> Radio </option>
+        </select><br><br>
+
+        <label>When do you plan to listen to this music?</label>
+        <input type="date" name="date"><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
